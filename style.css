@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'AR One Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
+}
+#mainbox{
+  height: 100vh;
+  background: url(photo.jpg);
+  background-size: cover;
+  
+  
+}
+#sidebar{
+  width: 300px;
+  height:100vh;
+  background-color:rgba(255, 255, 255, 0.1);
+  color: aliceblue;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: -300px;
+  transition: all 0.2s linear;
+  
+  
+}
+.btn{
+  color: aliceblue;
+  font-size: 30px;
+}
+
+#sidebaritems ul li a{
+  
+  padding-left: 10px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  
+  
+}
+#sidebaritems ul li {
+  list-style-type: none;
+  padding-left: 30px;
+  text-decoration: none;
+  line-height: 70px;
+  font-size: larger;
+  
+
+  
+}
+
+#btn_two i{
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  position: absolute;
+  left: 270px;
+  top: 5px;
+  font-size: 20px;
+  padding: 5px;
+  
+  
+}
+#btn_two:hover i{
+  font-size: 23px;
+  opacity: 1;
+  cursor: pointer;
+}
+#btn_one i{
+  position: absolute;
+  left: 20px; 
+  top: 20px;
+  cursor:pointer; 
+}
+#btn_one:hover i{
+  transform: scale(1.2);
+}
+#checkbox{
+  display: none;
+}
+
+#socialmedia {
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  /* padding: 30px; */
+}
+#socialmedia a{
+  padding: 15px;
+  color: aliceblue;
+  opacity: 0.5;
+  
+  
+}
+#logo{
+  text-decoration: none;
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.1);
+  
+  padding: 20px 50px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.3);
+  
+}
+#logo a{
+  font-size: 50px;
+}
+#sidebaritems{
+  position: absolute;
+  top: 140px;
+  width: 300px;
+  
+
+}
+#logo a{
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+}
+#sidebar ul li i{
+  color: aliceblue;
+}
+#socialmedia a:hover{
+  opacity: 1;
+  
+
+}
+#socialmedia i:hover{
+  transform: scale(1.2);
+}
+#sidebaritems ul li:hover {
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+#checkbox:checked ~ #sidebar{
+  left: 0;
+  
+  
+}
+#checkbox:checked~ #btn_one{
+  display: none;
+}
