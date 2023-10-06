@@ -44,6 +44,7 @@
   text-decoration: none;
   line-height: 70px;
   font-size: larger;
+  width: 100%;
   
 
 }
@@ -70,7 +71,7 @@
   top: 20px;
   cursor:pointer; 
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 #btn_one:hover i{
   transform: scale(1.2);
@@ -78,7 +79,9 @@
 #checkbox{
   display: none;
 }
-
+.contentlist{
+  padding-left: 0;
+}
 #socialmedia {
   position: absolute;
   bottom: 15px;
