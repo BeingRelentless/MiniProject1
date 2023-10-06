@@ -69,6 +69,8 @@
   left: 20px; 
   top: 20px;
   cursor:pointer; 
+  color: white;
+  font-size: 30px;
 }
 #btn_one:hover i{
   transform: scale(1.2);
